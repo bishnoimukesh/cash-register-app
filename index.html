@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+</head>
+<body>
+    
+    <main class="container">
+        <div>
+            <h1>Cash Register Manager</h1>
+            <h4>Enter the bill amount and cash given by the customer to know the minimum number of notes to return</h4>
+            <hr>
+        
+            <label for="bill-amount">Bill Amount</label>
+            <input id="bill" type="number"></input>
+        
+            <button id="next">Next</button>
+        
+            <label id="label-cash" for="cash-given">Cash Given</label>
+            <input id="cash" type="number"></input>
+        
+            <button id="check">Check</button>
+            <hr>
+        
+            <h4 id="message-text"></h4>
+        
+            <table id="change-table">
+              <tbody>
+                <tr>
+                  <th>No. of Notes</th>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th>Note</th>
+                  <td>2000</td>
+                  <td>500</td>
+                  <td>100</td>
+                  <td>20</td>
+                  <td>10</td>
+                  <td>5</td>
+                  <td>1</td>
+                </tr>
+              </tbody>
+            </table>
+      </main>
+    
+      <footer class="footer">
+        <p>
+            <a href="https://github.com/bishnoimukesh" target="_blank">
+                <i class="fa fa-github"></i>
+            </a>
+            <a href="https://twitter.com/_mukeshbishnoi" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/bishnoimukesh/" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/_bishnoi_mukesh/" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a>
+        </p>
+    </footer>
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>

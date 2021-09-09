@@ -1,0 +1,118 @@
+
+:root{
+    --primary-color : #f3f4f6;
+    --secondary-color : #009999;
+}
+
+body {
+    margin: auto;
+    background-color: var(--primary-color);
+    font-weight: bold;
+}
+
+main {
+    max-width: 80%;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+#bill,
+#next {
+  display: block;
+}
+
+#cash,
+#check,
+#label-cash {
+  display: none;
+}
+
+h1 {
+    font-size: 2.3rem;
+    color: var(--secondary-color);
+    margin-block-end: 0;
+    margin-block-start: 1rem;
+  }
+  
+  h4 {
+    font-size: 1.1rem;
+    margin-block-end: 0;
+    margin-block-start: 1rem;
+    line-height: 1.5rem;
+  }
+  
+  hr {
+    margin: 1rem 0;
+  }
+  
+  label {
+    font-size: 1.1rem;
+  }
+
+  input {
+    font-family: Lato;
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid var(--secondary-color);
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    margin: 0.75rem auto;
+    max-width: 30%;
+    width: 200px;
+  }
+  
+  button {
+    font-family: Lato;
+    padding: 0.5rem 1.5rem;
+    margin: 0.75rem auto;
+    border: 2px solid var(--secondary-color);
+    border-radius: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--secondary-color);
+  }
+  
+  #message-text {
+    display: none;
+    font-size: 1.4rem;
+  }
+
+  #change-table {
+    display: none;
+    margin: 1rem auto 0;
+    border-collapse: collapse;
+  }
+  
+  table#change-table th {
+    font-weight: bolder;
+    font-size: 1.1rem;
+  }
+  
+  table#change-table th,
+  td {
+    border: 2px solid var(--secondary-color);
+    padding: 1rem 1.3rem;
+  }
+
+  .footer{
+    position:absolute;
+   bottom:0;
+   width:100%;
+   text-align: center;
+}
+
+.footer a {
+    padding-inline: 1rem;
+    font-size: 50px;
+    color: rgb(24, 4, 4);
+    text-decoration: none;
+}
+
+.footer a:hover {
+  color: rgb(71, 135, 187);
+  font-size: 70px;
+}
